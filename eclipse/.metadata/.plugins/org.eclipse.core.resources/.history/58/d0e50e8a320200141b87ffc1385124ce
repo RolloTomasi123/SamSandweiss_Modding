@@ -1,0 +1,11 @@
+package sam.sandweiss.MyItems;
+
+public class ItemBlasterRifle extends Item
+{
+  public ItemBlasterRifle()
+  {
+    super();
+    setCreativeTab(CreativeTabs.tabCombat);
+    setUnlocalizedName("blasterRifle");
+  }
+}

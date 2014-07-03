@@ -1,0 +1,13 @@
+package sam.sandweiss.MyItems;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+
+public class BlasterRifle extends Item {
+	
+	public BlasterRifle() {
+		super();
+		setCreativeTab(CreativeTabs.tabCombat);
+		setUnlocalizedName("blasterRifle");
+	}
+}

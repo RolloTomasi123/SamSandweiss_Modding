@@ -1,0 +1,11 @@
+package tutorial.DMAexample.MyItems;
+
+import net.minecraft.item.ItemSword;
+
+
+public class MyCustomSword {
+
+}
+
+
+//import net.minecraft.item.ItemAxe;

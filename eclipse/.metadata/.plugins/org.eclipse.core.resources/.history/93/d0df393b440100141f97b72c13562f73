@@ -1,0 +1,12 @@
+package sam.sandweiss;
+
+import cpw.mods.fml.relauncher.side;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemSword;
+
+public class swordRuby extends ItemSword {
+
+	public swordRuby(int id, Item.ToolMaterilal mat){
+		super(mat);
+	}
+}

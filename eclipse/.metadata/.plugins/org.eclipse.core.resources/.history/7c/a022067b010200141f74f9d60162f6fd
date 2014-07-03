@@ -1,0 +1,22 @@
+package sam.sandweiss.MyBlocks;
+
+import java.util.Random;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+import sam.sandweiss.MyItems.RubyGem;
+
+public class RubyOre extends Block {
+
+	public RubyOre(Material material) {
+
+		super(material);
+
+	}
+	public Item getItemDropped(int par1, Random ran, int par2) {
+		return rubyGem; 
+	}
+
+}

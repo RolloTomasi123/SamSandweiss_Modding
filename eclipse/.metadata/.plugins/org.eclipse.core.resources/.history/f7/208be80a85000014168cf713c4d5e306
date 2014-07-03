@@ -1,0 +1,5 @@
+package sam.sandweiss.client;
+
+public class ClientProxy {
+
+}

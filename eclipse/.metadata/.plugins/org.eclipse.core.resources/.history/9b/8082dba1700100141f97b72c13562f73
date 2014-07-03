@@ -1,0 +1,25 @@
+package sam.sandweiss.MyItems;
+
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.item.ItemFood;
+
+
+public class FoodStrawberry  extends ItemFood {
+	
+	public FoodStrawberry(int i, int j, boolean b) {
+		super(j,b);
+		
+		//setMaxStackSize(64);
+		//setCreativeTab(CreativeTabs.tabMisc);
+		this.setTextureName("RubyMod:Strawberry.png");
+		
+		
+	}
+//	@SideOnly(Side.CLIENT)
+//	public void registerIcons(IIconRegister reg) {
+//		this.itemIcon = reg.registerIcon("RubyMod:Strawberry");
+//	}
+
+}

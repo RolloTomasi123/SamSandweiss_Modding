@@ -1,0 +1,9 @@
+package sam.sandweiss.MyItems;
+
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+
+
+public class FoodStrawberry  extends ItemFood {
+
+}

@@ -1,0 +1,14 @@
+package sam.sandweiss.MyItems;
+
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.client.renderer.texture.IIConRegister
+import net.minecraft.item.ItemSword;
+
+
+public class RubySword extends ItemSword {
+	
+ public RubySword (ToolMaterial material) {
+	 super(material);
+ }
+}

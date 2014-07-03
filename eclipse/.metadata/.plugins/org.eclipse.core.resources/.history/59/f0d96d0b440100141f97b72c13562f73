@@ -1,0 +1,10 @@
+package sam.sandweiss;
+
+import net.minecraft.item.ItemSword;
+
+public class swordRuby extends ItemSword {
+
+	public swordRuby(int id, Item.ToolMaterila mat){
+		super(mat);
+	}
+}

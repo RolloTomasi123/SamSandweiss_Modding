@@ -1,0 +1,14 @@
+package sam.sandweiss;
+
+import net.minecraft.item.ItemArmor;
+
+public class CustomArmor extends ItemArmor{
+	private String[] armorTypes = new String[]{"helmetCustom","chestplateCustome","legsCustome","bootsCustom"
+			
+	}
+	
+public CustomArmor(armorMaterial, int renderIndex, int armorType){
+		super(armorMaterial, renderIndex, armorType);
+	}
+
+}
